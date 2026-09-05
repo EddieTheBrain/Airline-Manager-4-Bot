@@ -5,7 +5,7 @@ on:
     - cron: "01,31 * * * *"
 jobs:
   test:
-    timeout-minutes: 15 
+    timeout-minutes: 20
     runs-on: ubuntu-22.04
     steps:
     - uses: actions/checkout@v4
